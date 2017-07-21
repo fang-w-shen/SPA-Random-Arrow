@@ -1,0 +1,23 @@
+.one {
+	display:inline-block;
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent; 
+	visibility:hidden;
+	border-right:60px solid green; 
+}
+
+.two {
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid green;
+	visibility: hidden;
+	display:inline-block;
+}
+
+.hidden {
+	visibility: visible;
+}
